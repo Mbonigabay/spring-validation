@@ -17,6 +17,13 @@
 	<properties>
 		<java.version>17</java.version>
 	</properties>
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>Github mbonigabay Apache Maven Package</name>
+			<url>https://maven.pkg.github.com/Mbonigabay/spring-validation</url>
+		</repository>
+	</distributionManagement>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
