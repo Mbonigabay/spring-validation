@@ -1,0 +1,10 @@
+POST http://localhost:8080/registration
+Content-Type: application/json
+
+{
+    "name": "Yusuf Mbonigaba",
+    "username": "mbonigabay@gmail.com",
+    "password": "12345678",
+    "confirmation": "12345678",
+    "birthDate": "1996-01-01"
+}
